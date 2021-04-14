@@ -1,20 +1,19 @@
 
 ## Create Website User
-sudo adduser website
+sudo adduser WEBSITE
 su website
-usermod -aG sudo website
+usermod -aG sudo WEBSITE
 
 ## Configure groups
 groups                                          # See which groups exist
 getent groups                                   # See all groups on system
 
 sudo groupadd website
-usermod -a -G website website
-usermod -a -G website benadmin201015
+usermod -a -G website WEBSITE
 
 ## move WWW folder to website user
 
-sudo chown website:website /etc/www -R
+sudo chown WEBSITE:WEBSITE /etc/www -R
 
 
 
