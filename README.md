@@ -1,6 +1,6 @@
 # Digital Ocean Server Hardening Basics
 
-- Problem
++ Problem
 
 Easy to set up a few servers without security when having 100k+ credits on a cloud provider. So I thought I share some basics on how to harden your servers.
 
